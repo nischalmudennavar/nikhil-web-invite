@@ -21,12 +21,19 @@ body{
 
 .container{
 
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
 
 
     .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 600px;
   perspective: 1000px;
 }
 
