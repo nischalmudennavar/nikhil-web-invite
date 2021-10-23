@@ -33,6 +33,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   overflow: hidden;
+  border: 1px solid #ccc;
 }
 
 .container .flip-card {
@@ -41,6 +42,9 @@ body {
   height: 600px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+  z-index: 20;
+  position: relative;
+  margin-left: 400px;
 }
 
 .container .flip-card-inner {
@@ -85,5 +89,14 @@ body {
   color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+.container .flip-card-2 {
+  position: relative;
+  z-index: 10;
+  left: -400px;
+  height: 600px;
+  width: 400px;
+  background: #000;
 }
 /*# sourceMappingURL=style.css.map */

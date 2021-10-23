@@ -27,15 +27,21 @@ body{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border:1px solid #ccc;
 
 
 
-    .flip-card {
+.flip-card {
   background-color: transparent;
   width: 400px;
   height: 600px;
   perspective: 1000px;
+  z-index: 20;
+  position:relative;
+  margin-left:400px;
+  
 }
+
 
 .flip-card-inner {
   position: relative;
@@ -71,5 +77,14 @@ body{
   background-color: #2980b9;
   color: white;
   transform: rotateY(180deg);
+}
+.flip-card-2{
+
+    position: relative;
+    z-index: 10;
+    left:-400px;
+    height:600px;
+    width:400px;
+    background: #000;
 }
 }
