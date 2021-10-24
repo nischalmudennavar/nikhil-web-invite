@@ -82,10 +82,12 @@ body {
 .container .flip-card-front {
   background-color: #bbb;
   color: black;
+  background-image: url("../assets/front.jpg");
+  background-size: 100%;
 }
 
 .container .flip-card-back {
-  background-color: #2980b9;
+  background-color: #383838;
   color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
@@ -97,6 +99,8 @@ body {
   left: -400px;
   height: 600px;
   width: 400px;
-  background: #000;
+  background: #383838;
+  background-image: url("../assets/back.jpg");
+  background-size: 100%;
 }
 /*# sourceMappingURL=style.css.map */
